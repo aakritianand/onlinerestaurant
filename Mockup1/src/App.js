@@ -1,4 +1,6 @@
 ﻿import React from 'react';
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './AppContent.css';
 import Header from './Header/Header';
 import Main from './Main/Main';
@@ -14,7 +16,7 @@ class App extends React.Component {
             	<Header/>
             	<Menu/>
 				<Footer/>
-         	</div>
+			</div>
       	);
    	}
 }

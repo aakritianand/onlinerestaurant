@@ -18,16 +18,30 @@ class Menu extends Component {
 
                     </div>
                     <div class = "right">
-                        <MenuItem
-                            image={process.env.PUBLIC_URL + '/Image/newdish1.jpg'}
-                            dishName="123"
-                            price="123"
-                        />
-                        <MenuItem
-                            image={process.env.PUBLIC_URL + '/Image/newdish1.jpg'}
-                            dishName="234"
-                            price="5234533"
-                        />
+                        <div class = "column">
+                            <MenuItem
+                                image={process.env.PUBLIC_URL + '/Image/newdish1.jpg'}
+                                dishName="123"
+                                price="123"
+                            />
+                            <MenuItem
+                                image={process.env.PUBLIC_URL + '/Image/newdish1.jpg'}
+                                dishName="234"
+                                price="5234533"
+                            />
+                        </div>
+                        <div class = "column">
+                            <MenuItem
+                                image={process.env.PUBLIC_URL + '/Image/newdish1.jpg'}
+                                dishName="123"
+                                price="123"
+                            />
+                            <MenuItem
+                                image={process.env.PUBLIC_URL + '/Image/newdish1.jpg'}
+                                dishName="234"
+                                price="5234533"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

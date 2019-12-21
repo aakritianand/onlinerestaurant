@@ -16,7 +16,11 @@
     border: 3px solid #e8b05d;
     border-left: none;
     background-color: #f9ddb6;
-    float: right;
     width: 80%;
     height:600px;
+    display:flex;
+}
+.column {
+    float: left;
+    align-self: center;
 }
