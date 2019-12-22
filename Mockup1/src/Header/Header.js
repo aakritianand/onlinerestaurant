@@ -22,12 +22,12 @@ class Header extends React.Component {
 						<p class = "restaurant-name">Nhà hàng Tứ Phương</p>
 					</div>
 					<ul class = "head-function">
-						<li><div><input class="headertext" type="submit"value="Trang Chủ"/></div></li>
-						<li><div><input class="headertext" type="submit"value="Giới thiệu"></input></div></li>
-						<li><div><input class="headertext" type="submit"value="Chi nhánh"></input></div></li>
-						<li><div><input class="headertext" type="submit"value="Thực đơn"></input></div></li>
-						<li><div><input class="headertext" type="submit"value="Đặt bàn"></input></div></li>
-						<li><div><input class="headertext" type="submit"value="Hỏi đáp"></input></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Main') }>Trang chủ</button></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Introduction') }>Giới thiệu</button></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Department') }>Chi Nhánh</button></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Menu') }>Thực Đơn</button></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Introduction') }>Đặt Hàng</button></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Introduction') }>Hỏi Đáp</button></div></li>
 					</ul>
 			  </div>
 		</div>

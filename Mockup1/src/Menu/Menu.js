@@ -15,7 +15,10 @@ class Menu extends Component {
                 </div>
                 <div class = "test">
                     <div class = "left">
-
+                        <div><button>Khai Vị</button></div>
+                        <div><button>Món chính</button></div>
+                        <div><button>Tráng miệng</button></div>
+                        <div><button>Theo ngày</button></div>
                     </div>
                     <div class = "right">
                         <div class = "column">
