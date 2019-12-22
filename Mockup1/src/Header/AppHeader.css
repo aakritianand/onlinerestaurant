@@ -1,25 +1,36 @@
 body {
 	font-family: sans-serif;
 }
-
-
-
 .login-header {
+	width: 70%	;
+	padding-top: 10px;
+	padding-left: 50px;
 	
+	height: 25px;
 }
 .login-header-text {
 	text-align: right;
 	padding-right: 15%;
 }
-
-
+.cart-icon {
+	float: right;
+	padding-top: 10px;
+	
+}
+.login-header-text {
+	text-align: right;
+	padding-right:2%;
+}
+.firstdiv {
+	display: flex;
+}
 
 .menu-tab {
 	display: flex;
 	border: 3px solid #e8b05d;
 	padding: 5px;
 	margin: 5px;
-	background-image: url('.\Image\fadeout-color2.jpg');
+	background-image: url('./Image/fadeout-color2.jpg');
 	align-self: center;
 }
 .restaurant-icon {
@@ -36,6 +47,12 @@ body {
 .head-function {
 	width: 100%;
 	display: flex;
+}
+.headertext {
+	font-weight: bold;
+	font-size: 120%;
+	border-style: none;
+	background-color: antiquewhite;
 }
 .head-function li {
 	display: inline;

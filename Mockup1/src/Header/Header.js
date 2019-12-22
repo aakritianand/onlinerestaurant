@@ -2,32 +2,39 @@ import React, { Component } from 'react';
 import './AppHeader.css';
 import App from '../App';
 
-class Header extends Component {
-    render() {
-        return (
-            <div>
-                <div>
-                    <div class = "login-header">
-				        <p class= "login-header-text">Đăng nhập / Đăng ký</p>
-			        </div>
-                    <div class = "menu-tab">
-				        <img class= "restaurant-icon" src={process.env.PUBLIC_URL + '/Image/restaurant-icon.png'}/>
-				        <div class = "restaurant-name-block">
-					        <p class = "restaurant-name">Nhà hàng Tứ Phương</p>
-				        </div>
-				        <ul class = "head-function">
-					        <li><div><strong>Trang Chủ</strong></div></li>
-					        <li><div><strong>Giới Thiệu</strong></div></li>
-					        <li><div><strong>Chi Nhánh</strong></div></li>
-					        <li><div><strong>Thực Đơn</strong></div></li>
-					        <li><div><strong>Đặt Hàng</strong></div></li>
-					        <li><div><strong>Hỏi Đáp</strong></div></li>
-				        </ul>
-			        </div>
-                </div>
-            </div>
-        );
-    }
+class Header extends React.Component {
+	render() {
+		return (
+		  <div class="big header">
+		  <div class="firstdiv">
+		  <div class = "login-header">
+	  <div class= "login-header-text">
+		<input class="buttonloginout" type="submit" value="Đăng nhập/Đăng ký"></input>
+	  </div>
+	   
+	   </div>
+	   <div class="cart-icon">
+	   <input  type="image" src={process.env.PUBLIC_URL + '/Image/cart-icon.png'} alt="submit" width="25" height="25"></input>
+	   </div>
+	   </div>
+					<div class = "menu-tab">
+				<img class= "restaurant-icon" src={process.env.PUBLIC_URL + '/Image/restaurant-icon.png'}/>
+				<div class = "restaurant-name-block">
+				  <p class = "restaurant-name">Nhà hàng Tứ Phương</p>
+				</div>
+				<ul class = "head-function">
+				  <li><div><input class="headertext" type="submit"value="Trang Chủ"/></div></li>
+				  <li><div><input class="headertext" type="submit"value="Giới thiệu"></input></div></li>
+				  <li><div><input class="headertext" type="submit"value="Chi nhánh"></input></div></li>
+				  <li><div><input class="headertext" type="submit"value="Thực đơn"></input></div></li>
+				  <li><div><input class="headertext" type="submit"value="Đặt bàn"></input></div></li>
+				  <li><div><input class="headertext" type="submit"value="Hỏi đáp"></input></div></li>
+				</ul>
+			  </div>
+				</div>
+			
+		);
+	}
 }
 
 export default Header;
