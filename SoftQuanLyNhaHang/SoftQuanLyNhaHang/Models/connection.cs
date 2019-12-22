@@ -11,7 +11,7 @@ namespace SoftQuanLyNhaHang.Models
 {
     class connection
     {
-        private static string sqlcon = "server =D\LOCALDB#8E2BDCE0; uid= root; pwd= 123qwe; database = dbSoftQuanLyNhaHang";
+        private static string sqlcon = @"server =(localdb)\MSSQLLocalDB; uid= D; pwd= 123qwe; database = dbSoftQuanLyNhaHang";
 
         public static string Sqlcon { get => sqlcon; set => sqlcon = value; }
 
