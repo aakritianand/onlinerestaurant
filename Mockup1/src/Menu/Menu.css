@@ -25,11 +25,12 @@
     border: 3px solid #e8b05d;
     border-left: none;
     background-color: #f9ddb6;
-    width: 80%;
+    width: 100%;
     height:600px;
     display:flex;
 }
 .column {
-    float: left;
+    float: right;
     align-self: center;
+    padding-left: 200px;
 }

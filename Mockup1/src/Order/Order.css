@@ -1,0 +1,43 @@
+.order {
+    display: flex;
+    
+}
+.ordernow  {
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    background-color: bisque;
+    border-style:none ;
+    border-radius: 10%;
+}
+.right5 {
+    width: 100px;
+    height: auto;
+    position: relative; left: 100px;
+}
+.right5 img {
+    width: 500px;
+    height:auto;
+}
+.branch {
+    padding:5px;
+    
+}
+.branch ul li button {
+    background-color: burlywood;
+    font-weight: bold;
+    border-style: none;
+}
+.order div ul li{
+    list-style: none;
+    padding:15px;
+    border:2px aquamarine ;
+}
+.order div ul li input {
+    width: 200px;
+    height: 25px;
+
+}
+.details {
+   padding:50px
+}

@@ -26,8 +26,8 @@ class Header extends React.Component {
 						<li><div><button class="headertext" onClick = { () => this.props.edit('Introduction') }>Giới thiệu</button></div></li>
 						<li><div><button class="headertext" onClick = { () => this.props.edit('Department') }>Chi Nhánh</button></div></li>
 						<li><div><button class="headertext" onClick = { () => this.props.edit('Menu') }>Thực Đơn</button></div></li>
-						<li><div><button class="headertext" onClick = { () => this.props.edit('Introduction') }>Đặt Hàng</button></div></li>
-						<li><div><button class="headertext" onClick = { () => this.props.edit('Introduction') }>Hỏi Đáp</button></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Order') }>Đặt Hàng</button></div></li>
+						<li><div><button class="headertext" onClick = { () => this.props.edit('Help') }>Hỏi Đáp</button></div></li>
 					</ul>
 			  </div>
 		</div>

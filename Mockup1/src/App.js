@@ -6,6 +6,8 @@ import Introduction from './Introduction/Introduction';
 import Footer from './Footer/Footer';
 import Department from './Department/Department';
 import Menu from './Menu/Menu';
+import Order from './Order/Order';
+import Help from './Help/Help';
 
 class App extends React.Component {
 	constructor(props) {
@@ -34,6 +36,10 @@ class App extends React.Component {
 				return this.renderDepartment();
 			case 'Menu':
 				return this.renderMenu();
+			case 'Order':
+				return this.renderOrder();
+			case 'Help':
+				return this.renderHelp();
 			default:
 				return this.renderMain();
 		}
@@ -60,6 +66,18 @@ class App extends React.Component {
 	renderMenu = () => {
 		return (
 			<Menu/>
+		)
+	}
+
+	renderOrder = () => {
+		return (
+			<Order/>
+		)
+	}
+
+	renderHelp = () => {
+		return (
+			<Help/>
 		)
 	}
 

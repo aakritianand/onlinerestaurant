@@ -27,7 +27,9 @@ class Main extends Component {
                    
                    <img class="restaurant-picture" src={process.env.PUBLIC_URL + '/Image/restaurant-picture.jpg'}/>
                    <p class="introduce">Thương hiệu nhà hàng Tứ Phương sau một thời gian dài không ngừng phát triển đã sở hữu một chuỗi các nhà hàng chi nhánh trên địa bàn thánh phố Hà Nội</p>
-                   <p class="readmore">Xem thêm</p>
+                   <div>
+                   <button class="xemthembutton" > Xem thêm </button>
+                   </div>
                </div>
            </div>
         );
