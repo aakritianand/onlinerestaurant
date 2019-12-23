@@ -1,0 +1,84 @@
+
+.left2{
+  width: 300px;
+  float: left;
+  min-height: 650px;
+  background-color: bisque;
+  font-size: 90%;
+}
+.right2{
+  padding-left: 0px; 
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+#cc4 {
+  width:800px;
+  height:40px ;
+  border-color: black;
+}
+.right2 ul {
+  margin: 0px;
+  font-size: 125%;
+  padding-left: 400px;
+    
+}
+.right2 li {
+  list-style: none;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+#department-info {
+  font-size: 150%;
+  background-color: bisque;
+  width: 300px;
+  height: 150px;
+  border-color:beige
+}
+#menu {
+  font-size: 150%;
+  background-color: bisque;
+  width: 300px;
+  height: 150px;
+  border-color:beige
+}
+
+#order {
+  font-size: 150%;
+  background-color: bisque;
+  width: 300px;
+  height: 150px;
+  border-color:beige
+}
+
+#appetizer {
+  font-size: 150%;
+  background-color: bisque;
+  width: 300px;
+  height: 150px;
+  border-color:beige
+}
+
+#mainDish {
+  font-size: 150%;
+  background-color: bisque;
+  width: 300px;
+  height: 150px;
+  border-color:beige
+}
+
+#desert {
+  font-size: 150%;
+  background-color: bisque;
+  width: 300px;
+  height: 150px;
+  border-color:beige
+}
+
+#dishByDate {
+  font-size: 150%;
+  background-color: bisque;
+  width: 300px;
+  height: 150px;
+  border-color:beige
+}

@@ -2,15 +2,20 @@ import React from 'react';
 import './AppHeader.css';
 import './AppContent.css';
 import './AppFooter.css';
+import './mockup3.css';
 import Module1 from './Module1/Module1';
 import Module2 from './Module2/Module2';
 import Module3 from './Module3/Module3';
 import Module4 from './Module4/Module4';
+import Module5 from './Module5/Module5';
+import Module7 from './Module7/Module7';
+import Module6 from './Module6/Module6';
+import Module8 from './Module8/Module8';
 function App() {
   return (
     <div className="App">
      
-      <Content4/>
+      <Content5/>
       
       
     </div>
@@ -34,7 +39,7 @@ class AppHeader extends React.Component {
         </div>
         </div>
            <div class = "menu-tab">
-       <img class= "restaurant-icon" src={process.env.PUBLIC_URL + '/Image/restaurant-icon.png'}/>
+       <img class= "restaurant-icon" src={process.env.PUBLIC_URL + '/Image/restaurant-icon.png'} alt=""/>
        <div class = "restaurant-name-block">
          <p class = "restaurant-name">Nhà hàng Tứ Phương</p>
        </div>
@@ -79,28 +84,56 @@ class Content4 extends React.Component {
     );
   }
 }
+class Content5 extends React.Component {
+  render() {
+    return (
+      <Module5/>
+    );
+  }
+}
+class Content6 extends React.Component {
+  render() {
+    return (
+      <Module6/>
+    );
+  }
+}
+class Content7 extends React.Component {
+  render() {
+    return (
+      <Module7/>
+    );
+  }
+}
+class Content8 extends React.Component {
+  render() {
+    return (
+      <Module8/>
+    );
+  }
+}
 class AppFooter extends React.Component {
   render() {
      return (
       <div class="footer">
        <div class="information">
-        <img class= "restaurant-icon" src={process.env.PUBLIC_URL + '/Image/restaurant-icon.png'}/>
+        <img class= "restaurant-icon" src={process.env.PUBLIC_URL + '/Image/restaurant-icon.png'}alt=""/>
         <div class = "restaurant-name-block">
           <p class = "restaurant-name">Nhà hàng Tứ Phương</p>
         </div>
         <div class="followus">
           <p><strong>Follow us</strong></p>
-          <img class="icon" src={process.env.PUBLIC_URL + '/Image/fb-icon.jpg'}/>
-          <img class="icon" src={process.env.PUBLIC_URL + '/Image/ig-icon.jpg'}/>
+          <img class="icon" src={process.env.PUBLIC_URL + '/Image/fb-icon.jpg'} alt=""/>
+          <img class="icon" src={process.env.PUBLIC_URL + '/Image/ig-icon.jpg'} alt=""/>
         </div>
         <div class="feedback">
           <p>For feedback</p>
-          <img class="icon" src={process.env.PUBLIC_URL + '/Image/gm-icon.jpg'}/>
+          <img class="icon" src={process.env.PUBLIC_URL + '/Image/gm-icon.jpg'} alt=""/>
           <p>nhahangtuphuong@gmail.com</p>
         </div>
         <div class="contact">
           <p><strong>For contact</strong></p>
-          <img class="icon" src={process.env.PUBLIC_URL + '/Image/phone-icon.jpg'}/>
+          <img class="icon" src={process.env.PUBLIC_URL + '/Image/phone-icon.jpg'}alt=""/>
           <p>0356124235</p>
         </div>
            </div>
