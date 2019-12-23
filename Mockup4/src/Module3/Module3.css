@@ -1,0 +1,39 @@
+.left3 {
+    width: 300px;
+    float: left;
+    min-height: 650px;
+    background-color: bisque;
+    font-size: 90%;
+}
+.right3{
+    padding-left: 100px; 
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.right3 ul {
+    margin: 0px;
+    font-size: 125%;
+    padding-left: 400px;
+}
+.right3 li {
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+  
+#department1 {
+    width:800px;
+    height:40px ;
+    border-color: black;
+}
+.ChangeImgButton {
+    float: right;
+    position: relative; right: 400px;top: 200px;
+    background-color: wheat;
+    
+    
+
+}
+.changeImgButton{
+    background-color: wheat;
+}

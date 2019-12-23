@@ -1,0 +1,70 @@
+body {
+	font-family: sans-serif;
+}
+.subadminBtn{
+	float:right;
+	width: 500px;
+}
+.login-header {
+	width: 70%	;
+	padding-top: 10px;
+	padding-left: 50px;
+	
+	height: 25px;
+}
+.login-header-text {
+	text-align: right;
+	padding-right: 15%;
+}
+.cart-icon {
+	float: right;
+	padding-top: 10px;
+	
+}
+.login-header-text {
+	text-align: right;
+	padding-right:2%;
+}
+.firstdiv {
+	display: flex;
+}
+
+.menu-tab {
+	display: flex;
+	border: 3px solid #e8b05d;
+	padding: 5px;
+	margin: 5px;
+	background-image: url('./fadeout-color.jpg');
+	align-self: center;
+}
+.restaurant-icon {
+	width: 50px;
+	padding-right: 20px;
+}
+.restaurant-name-block {
+	width: 20%;
+}
+.restaurant-name {
+	font-size: 35px;
+	margin: 0px;
+}
+.head-function {
+	width: 100%;
+	display: flex;
+}
+.headerText {
+	font-weight: bold;
+	font-size: 120%;
+	border-style: none;
+	background-color: antiquewhite;
+}
+.head-function li {
+	display: inline;
+	align-self: center;
+}
+.head-function li:first-child {
+	color: #bf0d0d;
+}
+.head-function div {
+	overflow: hidden;
+}

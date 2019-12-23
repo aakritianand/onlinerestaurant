@@ -1,0 +1,72 @@
+.left6 {
+    width: 300px;
+    float: left;
+    min-height: 650px;
+    background-color: bisque;
+    font-size: 90%;
+}
+.right6 {
+    padding-left: 50px; 
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+.right6 ul {
+    margin: 0px;
+    font-size: 125%;
+    padding-left: 400px;
+}
+.right6 li {
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.dish{
+    width:500px;
+    height: auto;
+
+}
+#dishInfo{
+    height:30px;
+    width: fit-content;
+    border: solid;
+    font-size: medium;
+    font-weight: bold;
+}
+.changeDishInfoBtn{
+    background-color: burlywood;
+    margin-left: 15%;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    font-weight: bold;
+}
+.addDishBtn{
+    position: relative;
+    margin-left: 50%;
+    background-color: burlywood;
+    width: 200px;
+    height: 40px;
+    border-radius: 10%;
+    font-weight: bold;
+
+}
+
+.dish_title {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.dish_price{
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#d6{
+    border: solid black;
+    width: 200px;
+    height: 40px;
+}
