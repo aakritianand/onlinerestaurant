@@ -1,0 +1,151 @@
+
+  #thongtin {
+    font-size: 150%;
+    background-color: bisque;
+    width: 300px;
+    height: 150px;
+    border-color:beige
+  }
+  #lsdonhang {
+    font-size: 150%;
+    background-color: bisque;
+    width: 300px;
+    height: 150px;
+    border-color:beige
+  }        
+  .left6 {
+    width: 300px;
+    float: left;
+    height: 1110px;
+    background-color: bisque;
+  }
+  #thongtin {
+    font-size: 150%;
+    background-color: bisque;
+    width: 300px;
+    height: 150px;
+    border-color:beige
+  }
+  #lsdonhang {
+    font-size: 150%;
+    background-color: bisque;
+    width: 300px;
+    height: 150px;
+    border-color:beige
+  }
+  .dondathang {
+    background-color: bisque;
+    width: 600px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+    transform: rotate(270deg);
+    border-color:white;
+    border-style: solid;
+    border-bottom-color: black;
+    position: relative; right: 100px; bottom: 10px;top: 100px;
+  }
+  .right6 {
+    padding-left: 350px; 
+    padding-top: 250px; 
+  }
+  #rebook {
+    background-color: bisque;
+    width: 150px;
+    height: 50px;
+    border-radius:10% ;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  .donhang1 {
+    position: relative; left: 220px; bottom:222px;
+    width: 1000px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    border-style: solid;    
+  } 
+  .donhang2 {
+    position: relative; left: 220px; bottom:100px;
+    width: 1000px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    border-style: solid;   
+  }
+  .donhang3 {
+    position: relative; left: 220px; bottom:-58px;
+    width: 1000px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    border-style: solid;    
+  }
+  .emptybox1 {
+    position: relative; left: 220px; bottom:310px;
+    width: 1000px;
+    height: 113px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    border-style: solid;    
+  }
+  .emptybox2 {
+    position: relative; left: 220px; bottom:276px;
+    width: 1000px;
+    height: 186px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    border-style: solid;    
+  }
+  .emptybox3 {
+    position: relative; left: 220px; bottom:275px;
+    width: 1000px;
+    height: 186px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+    border-style: solid;
+  }
+  .datlai1 {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;   
+    border-radius: 20%;
+    position: relative; left:1300px;bottom: 750px;    
+  }
+  .datlai2 {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;    
+    border-radius: 20%;
+    position: relative; left:1300px;bottom: 400px;   
+  }
+  .datlai3 {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;   
+    border-radius: 20%;
+    position: relative; left:1300px;bottom: 620px;    
+  }      
+  .infocontent3 ul li {
+    list-style: none;
+    position: relative; top:200px;
+  }
+  

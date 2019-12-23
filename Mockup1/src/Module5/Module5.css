@@ -1,0 +1,61 @@
+.right5 ul {
+    margin: 0px;
+    font-size: 125%;
+    padding-left: 400px;
+  
+  }
+  .ttt {
+      padding:10px;
+      font-weight: bold;
+      border-radius:10% ;
+      
+  }
+  .tonggiatien {
+      padding-top:200px ;
+      height: fit-content;
+      width: fit-content;
+  }
+  .right5 ul {
+    margin: 0px;
+    font-size: 125%;
+    padding-left: 400px;    
+  }
+  .right5 li {
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 100px;
+  }                       
+  .chitietthanhtoan {
+   width: 200px;
+   height: 70px;
+   background-color: bisque;
+   font-weight: bold;
+   text-align: center;
+   border-radius: 20% ;
+   font-size: 120%;
+    
+  }
+  #cc4 {
+    width:800px;
+    height:40px ;
+    border-color: black;
+  }
+  .left5 {
+    width: 300px;
+    float: left;
+    height: 650px;
+    background-color: bisque;
+  }  
+  .cay2 {
+    font-weight: bold;
+    background-color: bisque;
+    background-size:auto;
+    width: 180px;
+    font-size: 125%;
+    text-align: center;
+    height:35px;
+  }
+  .content3 {
+    margin: 0px auto;
+  }
+  

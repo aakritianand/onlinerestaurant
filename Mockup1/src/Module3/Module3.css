@@ -1,0 +1,79 @@
+.bigdivcontent3{
+    height: 800px;
+    display: flex;
+    overflow: auto;
+  }
+  .leftct3 {
+    float: left;
+    width: 700px;
+    height: 700px;
+    padding-left: 100px;
+    padding-top: 60px;   
+  }
+  .rightct3 {
+    float: right;
+    width: 500px; 
+    padding-right: 300px;
+    height: 500px;   
+  } 
+  .hvtct3 {
+   padding-top:40px
+  }
+  .sdtct3 {
+    padding-top: 30px;
+  }
+  .dcct3 {
+    padding-top: 30px;
+  }
+  .ct3f {
+    width: 500px;
+    height: 35px;
+  }
+  .tgtct3 {
+    padding-top: 150px;
+  }
+  .ct3f2 {
+    width: 500px;
+    height: 35px;
+  }
+  .psct3 {
+    width: 30px;
+    padding-top: 8px;  
+  }
+  .cnnhs1 {
+    border-radius:10% ;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    background-color: bisque;
+    font-size: 120%;
+    margin-top: 30px;   
+  }
+  .tttct3 {
+    padding-top: 30px;
+  }
+  .ttct3 {
+    padding-top:50px
+  } 
+  .sizett {
+    width: 300px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: bisque;
+    border-radius:10% ;
+  }
+  .thanhtoanthanhcong {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    padding-top:50px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    line-height:10px;
+    border-radius:10% ;
+    margin-left: 750px;
+    margin-top: 50px;
+  }

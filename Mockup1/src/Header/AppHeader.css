@@ -14,8 +14,11 @@ body {
 }
 .cart-icon {
 	float: right;
-	padding-top: 10px;
-	
+	padding-top: 10px;	
+}
+.cart-icon button img {
+	width: 10px;
+	height: auto;
 }
 .login-header-text {
 	text-align: right;

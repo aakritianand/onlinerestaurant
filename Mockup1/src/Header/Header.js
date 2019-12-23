@@ -9,11 +9,11 @@ class Header extends React.Component {
 		  <div class="firstdiv">
 			<div class = "login-header">
 				<div class= "login-header-text">
-					<input class="buttonloginout" type="submit" value="Đăng nhập/Đăng ký"></input>
+					<button class="buttonloginout" onClick = { () => this.props.edit('Module1') }>Đăng nhập/Đăng ký</button>
 				</div>
 			</div>
 			<div class="cart-icon">
-				<input  type="image" src={process.env.PUBLIC_URL + '/Image/cart-icon.png'} alt="submit" width="25" height="25"></input>
+				<button onClick = { () => this.props.edit('Module2') }><img src={process.env.PUBLIC_URL + '/Image/cart-icon.png'}/></button>
 			</div>
 	   		</div>
 				<div class = "menu-tab">

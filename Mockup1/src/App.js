@@ -8,6 +8,12 @@ import Department from './Department/Department';
 import Menu from './Menu/Menu';
 import Order from './Order/Order';
 import Help from './Help/Help';
+import Module1 from './Module1/Module1';
+import Module2 from './Module2/Module2';
+import Module3 from './Module3/Module3';
+import Module4 from './Module4/Module4';
+import Module5 from './Module5/Module5';
+import Module6 from './Module6/Module6';
 
 class App extends React.Component {
 	constructor(props) {
@@ -40,6 +46,18 @@ class App extends React.Component {
 				return this.renderOrder();
 			case 'Help':
 				return this.renderHelp();
+			case 'Module1':
+				return this.renderModule1();
+			case 'Module2':
+				return this.renderModule2();
+			case 'Module3':
+				return this.renderModule3();
+			case 'Module4':
+				return this.renderModule4();
+			case 'Module5':
+				return this.renderModule5();
+			case 'Module6':
+				return this.renderModule6();
 			default:
 				return this.renderMain();
 		}
@@ -78,6 +96,42 @@ class App extends React.Component {
 	renderHelp = () => {
 		return (
 			<Help/>
+		)
+	}
+
+	renderModule1 = () => {
+		return (
+			<Module1 edit = {this.edit}/>
+		)
+	}
+
+	renderModule2 = () => {
+		return (
+			<Module2 edit = {this.edit} />
+		)
+	}
+
+	renderModule3 = () => {
+		return (
+			<Module3 edit = {this.edit}/>
+		)
+	}
+
+	renderModule4 = () => {
+		return (
+			<Module4/>
+		)
+	}
+
+	renderModule5 = () => {
+		return (
+			<Module5 edit = {this.edit}/>
+		)
+	}
+
+	renderModule6 = () => {
+		return (
+			<Module6 edit = {this.edit}/>
 		)
 	}
 
